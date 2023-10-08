@@ -1,0 +1,11 @@
+body = (weight/(height * height))
+if body < 18.5:
+  print(f"Your Bmi is {body}, you are underweight. ")
+elif body < 25:
+  print(f"Your Bmi is {body}, you have a normal weight. ")
+elif body < 30:
+  print(f"Your Bmi is {body}, you are slightly normal weight. ")
+elif body < 35:
+  print(f"Your Bmi is {body}, you are obese. ")
+else:
+   print(f"Your Bmi is {body}, you are clinically obese. ")
