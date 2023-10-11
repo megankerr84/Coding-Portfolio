@@ -1,3 +1,7 @@
+
+year = int(input())
+weight = int(input())
+
 body = (weight/(height * height))
 if body < 18.5:
   print(f"Your Bmi is {body}, you are underweight. ")
