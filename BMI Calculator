@@ -1,5 +1,5 @@
 
-year = int(input())
+height = float(input())
 weight = int(input())
 
 body = (weight/(height * height))
